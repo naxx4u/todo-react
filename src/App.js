@@ -20,11 +20,11 @@ const newItem = () => {
       id: uuidv4(),
       item,
       color: randomColor({
-        luminosuty: 'light'
+        luminosuty: 'any'
       }),
       defaultPos: {
-        x: 500,
-        y: -500
+        x: 700,
+        y: -350
       }
     }
     setItems((items) => [...items, newItem])
