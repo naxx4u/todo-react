@@ -24,7 +24,7 @@ const newItem = () => {
       }),
       defaultPos: {
         x: 700,
-        y: -600
+        y: -700
       }
     }
     setItems((items) => [...items, newItem])
