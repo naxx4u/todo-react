@@ -23,8 +23,8 @@ const newItem = () => {
         luminosuty: 'any'
       }),
       defaultPos: {
-        x: 500,
-        y: -500
+        x: 700,
+        y: -700
       }
     }
     setItems((items) => [...items, newItem])
